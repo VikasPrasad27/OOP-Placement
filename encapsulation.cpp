@@ -1,7 +1,10 @@
 //Encapsulation is wrapping up data & member functions in a single unit called class 
 //Used for data hiding using access modifiers
 
-// 1 of the 4 pillar of OOP(encapsulation,polymorphism,inheritance,)
+// 1 of the 4 pillar of OOP(encapsulation,polymorphism,inheritance,abstraction)
+
+//Abstraction - hiding all unnecessary details using (access modifiers) and showing only imp parts
+//1)using private,public protected 2) using abtract class(read)
 
 #include <iostream>
 using namespace std;
