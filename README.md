@@ -29,6 +29,8 @@ Each topic includes a code file with minimal yet effective examples:
 | `accessmodifiers.cpp`| Basic OOP concepts & access specifiers (public/private/protected) |
 | `adjacencyList.cpp`  | Basic Graph concept                                   |
 | `adjacencyMatrix.cpp`| Basic Graph concept                                   |
+| `DFS.cpp`| DFS Graph concept                                   |
+| `BFS.cpp`| BFS Graph concept                                   |
 | `assignment.txt`      | Solved assignment based on Apna College oneshot      | 
 | `objects_classes.cpp`| Understanding classes & objects (Pillar 1)           | 
 | `encapsulation.cpp`   | Encapsulation (Pillar 2)                             | 
