@@ -12,16 +12,16 @@ private:
 
 public:
     A(int x) : a(x) {}
-    friend void sum(A, B); 
+    friend void sum(A, B); //friend
 };
 
 class B {
-private:
+private: 
     int b;
 
 public:
     B(int y) : b(y) {}
-    friend void sum(A, B);
+    friend void sum(A, B); 
 };
 
 void sum(A obj1, B obj2) {
