@@ -31,6 +31,7 @@ Each topic includes a code file with minimal yet effective examples:
 | `adjacencyMatrix.cpp`| Basic Graph concept                                   |
 | `DFS.cpp`| DFS Graph concept                                   |
 | `BFS.cpp`| BFS Graph concept                                   |
+| `Friedd.cpp`| Friend Function Why? and How.                                   |
 | `assignment.txt`      | Solved assignment based on Apna College oneshot      | 
 | `objects_classes.cpp`| Understanding classes & objects (Pillar 1)           | 
 | `encapsulation.cpp`   | Encapsulation (Pillar 2)                             | 
