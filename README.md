@@ -16,6 +16,8 @@ Each topic includes a code file with minimal yet effective examples:
 - ✅ Virtual Functions & Abstract Classes   
 - ✅ Encapsulation and Abstraction  
 - ✅ Static Members (Functions & Variables)    
+- ✅ Friend Functions    
+- ✅ Graph DFS & BFS traversal    
 - 📚 More to Come.....
 ---
 
