@@ -119,6 +119,33 @@ void queue(){
     //size , swap same as swap
 }
 
+void set(){
+    //SET STORES EVERYTHING IN SORTED ORDER ANS UNQIUE
+    set<int>st;
+    st.insert(1);//1
+    st.insert(2);//1,2
+    st.insert(2);//1,2
+    st.emplace(3);//1,2,3
+
+    //begin,end,swap,rend,size same as the above
+
+    auto it=st.find(3);
+
+    st.erase(3);
+    int cnt=st.count(1);
+
+    auto it=st.find(3);
+    st.erase(it);
+
+    auto it = st.lower_bound(2);
+    auto it = st.upper_bound(3);
+}
+
+void multiset(){
+    //SAME AS SET
+    //BUT ALSO STORES DUPLICATE ELEMENTS
+}
+
 int main(){
     cout<<"hii";
     return 0;
