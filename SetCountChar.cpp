@@ -19,7 +19,7 @@
 //         cout<<it;
 //     }
 //     return 0;
-// 
+//  
 
 // Count Char without whitespaces
 #include <iostream>
