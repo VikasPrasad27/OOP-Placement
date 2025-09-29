@@ -18,6 +18,8 @@ Each topic includes a code file with minimal yet effective examples:
 - ✅ Static Members (Functions & Variables)    
 - ✅ Friend Functions    
 - ✅ Graph DFS & BFS traversal    
+- ✅ Hashing - Unordered Map   
+- ✅ Binary Search  
 - ✅ STL(Standard Template Library) in CPP    
 - 📚 More to Come.....
 ---
@@ -42,7 +44,9 @@ Each topic includes a code file with minimal yet effective examples:
 | `encapsulation.cpp`   | Encapsulation (Pillar 2)                             | 
 | `inheritance.cpp`     | Inheritance (Pillar 3)                               | 
 | `polymorphism.cpp`    | Polymorphism (Pillar 4)                              | 
-| `statickeyword.cpp`   | Use of static keyword in classes                     | 
+| `statickeyword.cpp`   | Use of static keyword in classes                  | 
+| `UnorderedMap.cpp`    | Hashing - Unordered Map                                | 
+| `BinarySearch.cpp`    | Binary Search                                | 
 
 ---
 
