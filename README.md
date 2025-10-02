@@ -45,6 +45,8 @@ Each topic includes a code file with minimal yet effective examples:
 | `inheritance.cpp`     | Inheritance (Pillar 3)                               | 
 | `polymorphism.cpp`    | Polymorphism (Pillar 4)                              | 
 | `statickeyword.cpp`   | Use of static keyword in classes                  | 
+| `string.cpp`   | Basic String Interview problems                         | 
+| `Substring.cpp`   | Finding substring with and without using extra space                | 
 | `UnorderedMap.cpp`    | Hashing - Unordered Map                                | 
 | `BinarySearch.cpp`    | Binary Search                                | 
 
