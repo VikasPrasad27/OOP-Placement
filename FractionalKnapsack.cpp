@@ -1,8 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct Item { double value, weight; };
-bool cmp(Item a, Item b) { return a.value / a.weight > b.value / b.weight; }
+struct Item { 
+    double value, weight; 
+};
+
+bool cmp(Item a, Item b) {
+     double r1=a.value/a.weight;
+    double r2=b.value/b.weight;
+    return r1>r2;
+} 
 
 int main() {
     int n;
