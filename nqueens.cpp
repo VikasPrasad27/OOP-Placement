@@ -1,41 +1,57 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-bool isSafe(vector<vector<int>>& b, int r, int c, int n) {
+int n;
+vector<vector<int>> b;
+
+bool isSafe(int r, int c) {
     for (int i = 0; i < r; i++)
-        if (b[i][c] || (c-i+r<n && b[i][c-i+r]) || (c+i-r>=0 && b[i][c+i-r]))
+        if (b[i][c] || (c - i + r < n && b[i][c - i + r]) || (c + i - r >= 0 && b[i][c + i - r]))
             return false;
     return true;
 }
 
-bool solve(vector<vector<int>>& b, int r, int n) {
+bool solve(int r) {
     if (r == n) return true;
     for (int c = 0; c < n; c++) {
-        if (b[r][c]) return solve(b, r+1, n);
-        if (isSafe(b, r, c, n)) {
+        if (b[r][c]==0 && isSafe(r, c)) {
             b[r][c] = 1;
-            if (solve(b, r+1, n)) return true;
-            b[r][c] = 0;
+            if (solve(r + 1)) return true;
+            b[r][c] = 0; // backtrack
         }
     }
     return false;
 }
 
 int main() {
-    int n, r, c;
-    cout << "Enter board size: ";
+    cout << "Enter board size (n): ";
     cin >> n;
-    cout << "Enter position of first queen (row col): ";
+    b.assign(n, vector<int>(n, 0));
+
+    int r, c;
+    cout << "Enter first queen position (row col, 0-based): ";
     cin >> r >> c;
 
-    vector<vector<int>> b(n, vector<int>(n, 0));
-    if (r>=n || c>=n || r<0 || c<0) { cout << "Invalid position"; return 0; }
-    b[r][c] = 1;
+    if (r < 0 || c < 0 || r >= n || c >= n) {
+        cout << "Invalid position!";
+        return 0;
+    }
 
-    if (solve(b, 0, n))
-        for (auto &row : b) { for (int x : row) cout << x << " "; cout << "\n"; }
-    else cout << "No solution";
+    b[r][c] = 1; // place first queen
+
+    if (solve(r+1 )) {
+        cout << "\nN-Queens Solution:\n";
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++)
+                cout << b[i][j] << " ";
+            cout << endl;
+        }
+    } else cout << "No solution.";
+
+    return 0;
 }
+
 
 /*
 🧠 Step-by-Step Explanation
