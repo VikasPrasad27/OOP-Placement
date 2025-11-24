@@ -2,6 +2,7 @@
 // OOP Based Interview questions
 
 #include <iostream>
+#include<string>
 using namespace std;
 
 class Book {
@@ -44,6 +45,85 @@ public:
     }
 };
 
+class Member{
+    int id;
+    string name;
+
+public:
+    Member (){
+        id=0;
+        name="";
+    }
+
+    void setMember(int memberId, string memberName){
+        id=memberId;
+        name=memberName;
+    }
+
+    int getId(){
+        return id;
+    }
+
+    void display(){
+        cout<<"Member name:"<<name<<"--"<<"Member id:"<<id<<endl;
+    }
+
+};
+
+class Library{
+    Book books[10];
+    Member members[10];
+    int bookcount;
+    int membercount;
+
+    public:
+    Library(){
+        bookcount=0;
+        membercount=0;
+    }
+
+    void addbook(int id,string title){
+        if(bookcount<10){
+            books[bookcount].setBookData(id,title);
+            bookcount++;
+        }else{
+            cout<<"Library Full";
+        }
+    }
+
+    void addmemebr(int id,string name){
+        if(membercount<10){
+            members[membercount].setMember(id,name);
+            membercount++;
+        }else{
+            cout<<"Member count full";
+        }
+    }
+
+    void displaybooks(){
+        for(int i=0;i<bookcount;i++){
+            books[i].display();
+        }
+    }
+    
+    void displaymember(){
+        for(int i=0;i<membercount;i++){
+            members[i].display();
+        }
+    }
+
+};
+
+
 int main(){
+    Library lib;
+
+    lib.addbook(1,"c++ mastery");
+    lib.addbook(2,"dsa in cpp");
+
+    lib.addmemebr(1,"vikas");
+    lib.addmemebr(2,"raj");
+    lib.displaybooks();
+    lib.displaymember();
     return 0;
 }
