@@ -20,7 +20,9 @@ Each topic includes a code file with minimal yet effective examples:
 - ✅ Graph DFS & BFS traversal    
 - ✅ Hashing - Unordered Map   
 - ✅ Binary Search  
-- ✅ STL(Standard Template Library) in CPP    
+- ✅ STL(Standard Template Library) in CPP
+- ✅ Parking Lot System - System Design
+- ✅ Library Management System - System Design
 - 📚 More to Come.....
 ---
 
