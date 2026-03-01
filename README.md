@@ -2,6 +2,7 @@
 
 This repository is a curated collection of essential **Object-Oriented Programming (OOP)** concepts in **C++**, specifically tailored for **last-minute placement preparation**. Whether you're revising before an interview or need a quick refresher, this repo covers the core topics in a clear, concise manner with well-commented code examples.
 
+Also added TCS NQT CODING Questions.
 ---
 
 ## 📚 Topics Covered
@@ -23,6 +24,7 @@ Each topic includes a code file with minimal yet effective examples:
 - ✅ STL(Standard Template Library) in CPP
 - ✅ Parking Lot System - System Design
 - ✅ Library Management System - System Design
+- ✅ TCS NQT Coding Questions
 - 📚 More to Come.....
 ---
 
