@@ -74,29 +74,33 @@ The output format for testing
 
 The output should be a positive integer number (Check the output in Example 1, Example e) if no fine is collected then print ”0”.
 */
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main(){
-    vector<int>arr={5,2,3,7,9};
-    int x=100;
-    int n=arr.size();
-    int d=5;
-    int sum=0;
-    if(d%2==0){
-        for(int i=0;i<n;i++){
-            if(arr[i]%2==0){
+    vector<int> arr = {5,2,3,7,9};
+    int x = 100;
+    int n = arr.size();
+    int d = 5;
+    int sum = 0;
+
+    if(d % 2 == 0){   // even date
+        for(int i = 0; i < n; i++){
+            if(arr[i] % 2 != 0){  // odd vehicle -> violation
                 sum++;
             }
         }
-    }else{
-        for(int j=0;j<n;j++){
-            if(arr[j]%2==1){
+    } 
+    else{             // odd date
+        for(int i = 0; i < n; i++){
+            if(arr[i] % 2 == 0){  // even vehicle -> violation
                 sum++;
             }
         }
     }
-    cout<<sum*x;
+
+    cout << sum * x;
 
     return 0;
 }
