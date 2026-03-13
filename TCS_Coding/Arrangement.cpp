@@ -39,6 +39,6 @@ int main(){
     int n;
     cout<<"Enter N";
     cin>>n;
-    cout<<fact(n);
+    cout<<fact(n-1)*2;
     return 0;
 }
