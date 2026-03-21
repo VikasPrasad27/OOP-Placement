@@ -16,7 +16,12 @@ Output :
 using namespace std;
 
 int main(){
-    int arr[] = {1,0,2,0,1,0,2};
+    int N;
+    cin>>N;
+    vector<int>arr(N);
+    for(int i=0;i<N;i++){
+        cin>>arr[i];
+    }
     int n = sizeof(arr)/sizeof(arr[0]);
 
     int low = 0, mid = 0, high = n - 1;
