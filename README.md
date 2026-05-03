@@ -24,7 +24,7 @@ Each topic includes a code file with minimal yet effective examples:
 - ✅ STL(Standard Template Library) in CPP
 - ✅ Parking Lot System - System Design
 - ✅ Library Management System - System Design
-- ✅ TCS NQT Coding Questions
+- ✅ TCS NQT Coding Questions (Move Zeros, Arrangements, Sorting, etc..)
 - 📚 More to Come.....
 ---
 
