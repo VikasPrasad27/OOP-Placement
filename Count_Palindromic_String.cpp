@@ -1,4 +1,6 @@
 /*
+ASKED IN AN INTERVIEW 
+
 Count palindrome strings in a vector/array of strings
 Input: {"abc","car","ada","racecar","cool"}
 Output: 2
@@ -8,6 +10,9 @@ WE CAN USE 2 METHODS USING REVERSE FUNCTION FOR CHECKING PALINDROME OR LOOP VERS
 Time Complexity:  O(n * m)
 Space Complexity: O(1)
 
+With reverse():
+TC = O(n * m)
+SC = O(m)
 */
 #include <iostream>
 #include <vector>
