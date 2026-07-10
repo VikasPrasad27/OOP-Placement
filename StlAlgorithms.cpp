@@ -5,6 +5,21 @@
 #include<algorithm> //include this for algorithms
 using namespace std;
 
+/*
+reverse(v.begin(),v.end());
+
+max_element()
+
+min_element()
+
+push_back()
+
+pop_back()
+
+size()
+
+find()
+*/
 void algo(){
     sort(a,a+n);//(start,end)
     sort(v.begin(),v.end());//vector

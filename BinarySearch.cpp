@@ -1,3 +1,21 @@
+/*
+Time Complexity
+
+Binary Search → O(log n)
+
+Linear Search → O(n)
+
+Bubble Sort → O(n²)
+
+Merge Sort → O(n log n)
+
+Quick Sort
+
+Average → O(n log n)
+
+Worst → O(n²)
+*/
+
 #include <iostream>
 #include<vector>
 using namespace std;
