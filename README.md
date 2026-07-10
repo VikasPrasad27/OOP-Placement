@@ -52,7 +52,10 @@ Each topic includes a code file with minimal yet effective examples:
 | `string.cpp`   | Basic String Interview problems                         | 
 | `Substring.cpp`   | Finding substring with and without using extra space                | 
 | `UnorderedMap.cpp`    | Hashing - Unordered Map                                | 
-| `BinarySearch.cpp`    | Binary Search                                | 
+| `Add_Digits.cpp`    | Add Digits                                | 
+| `Move_Zeros_Front.cpp`    | Move Zeros to Front                          | 
+| `FindDuplicateAndMissing.cpp`    | Find Duplicate And Missing                               | 
+| `parking-lot-system.cpp`    | System Design Question - Basic                               | 
 
 ---
 
