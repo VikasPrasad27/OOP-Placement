@@ -50,6 +50,7 @@ Each topic includes a code file with minimal yet effective examples:
 | `polymorphism.cpp`    | Polymorphism (Pillar 4)                              | 
 | `statickeyword.cpp`   | Use of static keyword in classes                  | 
 | `string.cpp`   | Basic String Interview problems                         | 
+| `MaxProduct.cpp`   | Maximum product in an integer                         | 
 | `Substring.cpp`   | Finding substring with and without using extra space                | 
 | `UnorderedMap.cpp`    | Hashing - Unordered Map                                | 
 | `Add_Digits.cpp`    | Add Digits                                | 
