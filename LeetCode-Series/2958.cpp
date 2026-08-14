@@ -17,6 +17,9 @@ Intution:
 3) We will expand the window by moving the right pointer and update the frequency map.
 4) If the frequency of any element exceeds k, we will shrink the window from the left
 5) We will keep track of the maximum length of the good subarray found so far.
+
+TC - Each Element will be visited at most Twice - O(n)
+SC - O(n)
 */
 #include <bits/stdc++.h>
 using namespace std;
