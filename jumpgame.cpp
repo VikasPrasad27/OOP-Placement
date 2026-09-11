@@ -12,6 +12,11 @@ Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
 2)store index+current number
 3)If I've reached an index that is beyond my current maximum reachable position, there is no way to get here, so the last index cannot be reached
 3)at last if we can reach the last index, return true
+
+Tc : O(n)
+Sc : O(1)
+
+Greedy - Greedy is an algorithmic approach where you make the best choice you can at the current step, hoping that these local best choices lead to the overall best answer
  */
 
 #include <bits/stdc++.h>
